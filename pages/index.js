@@ -18,10 +18,12 @@ import { CTA } from "../components/CTA";
 import { Footer } from "../components/Footer";
 
 const Home = () => (
-  <div>
+  <>
     <Head>
-      <title>Home</title>
+      <title>Micro Legumes</title>
       <link rel="icon" href="/favicon.ico" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="description" content="A tinybeans-like app" />
     </Head>
     <Container>
       <Hero />
@@ -62,8 +64,7 @@ const Home = () => (
       </Footer>
       <CTA />
     </Container>
-
-  </div>
+  </>
 );
 
 export default Home;
