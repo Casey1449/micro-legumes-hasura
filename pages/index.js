@@ -26,6 +26,7 @@ const Home = () => (
       <meta name="description" content="A tinybeans-like app" />
     </Head>
     <Container>
+      <DarkModeSwitch />
       <Hero />
       <Main>
         <Text>
@@ -57,8 +58,6 @@ const Home = () => (
           </ListItem>
         </List>
       </Main>
-
-      <DarkModeSwitch />
       <Footer>
         <Text>Next ❤️ Chakra</Text>
       </Footer>
