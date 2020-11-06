@@ -1,14 +1,6 @@
 import { extendTheme } from "@chakra-ui/core";
 import { createBreakpoints } from "@chakra-ui/theme-tools"
 
-const colors = {
-  brand: {
-    900: "#1a365d",
-    800: "#153e75",
-    700: "#2a69ac",
-  },
-};
-
 const fonts = { mono: `'Menlo', monospace` };
 
 const breakpoints = createBreakpoints({
@@ -39,4 +31,4 @@ const icons = {
   },
 };
 
-export default extendTheme({ colors, fonts, breakpoints, icons });
+export default extendTheme({ fonts, breakpoints, icons });
